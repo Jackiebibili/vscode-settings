@@ -1,0 +1,213 @@
+{
+    "workbench.colorTheme": "Solarized Dark",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.fontFamily": "'FuraMono Nerd Font'",
+    "window.zoomLevel": 0,
+    "task.problemMatchers.neverPrompt": true,
+    "npm.enableRunFromFolder": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.columnSelection": false,
+    "debug.console.fontSize": 16,
+    "editor.tabSize": 3,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    //"editor.linkedEditing": true,
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "auto-rename-tag.activationOnLanguage": [
+        "*"
+    ],
+    "prettier.disableLanguages": ["js", "java", "cpp", "c"],
+    "files.autoSave": "onFocusChange",
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#90c96f56",
+        "editor.selectionHighlightBackground": "#c24bda42",
+        "editor.wordHighlightBackground": "#f53a625e",
+        "editor.wordHighlightStrongBackground": "#f53a634b",
+        "editor.background": "#0a2129",
+        "contrastActiveBorder": "#2da8c779",
+        "contrastBorder": "#0b4d5e",
+        "activityBar.foreground": "#00FFFF",
+        "activityBarBadge.background": "#1fca7c",
+        "activityBar.background": "#0b2a35",
+        "panel.background": "#0b2a35",
+        "sideBar.background": "#0a2129",
+        "menu.background": "#133d4eec",
+        "breadcrumb.background": "#0b2a35",
+        "titleBar.activeBackground": "#0a2735",
+        "statusBar.background": "#123b50",
+        "statusBarItem.remoteBackground": "#21e4e4bb",
+        "statusBarItem.hoverBackground": "#21e4e456",
+    },
+    //"java.home": "/mnt/c/Users/jacky/jdk-14.0.2+12",
+    "java.help.firstView": "gettingStarted",
+    "java.semanticHighlighting.enabled": true,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "C_Cpp.updateChannel": "Insiders",
+    "files.eol": "\n",
+    "java.refactor.renameFromFileExplorer": "preview",
+    "maven.terminal.useJavaHome": true,
+    "maven.executable.path": "C:\\Users\\jacky\\.m2\\wrapper\\dists\\apache-maven-3.6.3-bin\\1iopthnavndlasol9gbrbg6bf2\\apache-maven-3.6.3\\bin\\mvn",
+    "java.debug.settings.hotCodeReplace": "auto",
+    "java.project.importHint": false,
+    "tabnine.experimentalAutoImports": true,
+    "git.ignoreMissingGitWarning": true,
+    "editor.tokenColorCustomizations": {
+        "comments": "#f8ab4781",
+        "keywords": "#eeff00c0",
+        "strings": "#7ea4c7de",
+        "textMateRules": [
+            {
+                "scope": "entity.other.attribute-name",
+                "settings": {
+                    "foreground": "#ffdd48ec",
+                }
+            },
+            {
+                "scope": "support.type.property-name",
+                "settings": {
+                    "foreground": "#a1b900",
+                }
+            },
+            {
+                "scope": "keyword.other.unit",
+                "settings": {
+                    "foreground": "#859900e5",
+                    "fontStyle": "underline"
+                }
+            },
+            {
+                "scope": "entity.name.tag",
+                "settings": {
+                    "foreground": "#70ddd8ea",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "support.class.component.js.jsx",
+                "settings": {
+                    "foreground": "#00a2ff",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "variable.other.readwrite.alias",
+                "settings": {
+                    "foreground": "#f0557c",
+                }
+            },
+            {
+                "scope": "entity.name.type.class",
+                "settings": {
+                    "foreground": "#f0557c",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "variable.other.object",
+                "settings": {
+                    "foreground": "#3992d1",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "variable.other.property",
+                "settings": {
+                    "foreground": "#52c5faee",
+                }
+            },
+            {
+                "scope": "variable.other.constant",
+                "settings": {
+                    "foreground": "#8dfdd8bd",
+                }
+            },
+            {
+                "scope": "entity.name.function",
+                "settings": {
+                    "foreground": "#8687e6",
+                }
+            },
+            //punctuations
+            {
+                "scope": ["punctuation.section.method", "punctuation.definition.block.js.jsx"],
+                "settings": {
+                    "foreground": "#ffffffe0",
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.definition.tag.begin.js.jsx",
+                    "punctuation.definition.tag.end.js.jsx"
+                ],
+                "settings": {
+                    "foreground": "#ffffffa6",
+                }
+            },
+            {
+                "scope": ["punctuation.section.class", "punctuation.definition.parameters.end.js.jsx", "punctuation.definition.parameters.begin.js.jsx"],
+                "settings": {
+                    "foreground": "#fff",
+                    "fontStyle": "bold"
+                }
+            },
+            //java specs
+            {
+                "scope": "meta.method.identifier", 
+                "settings": {
+                    "foreground": "#ece9ff",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "variable.parameter.java",
+                "settings": {
+                    "foreground": "#ffe8e8",
+                }
+            },
+            {
+                "scope": "entity.name.type.parameter",
+                "settings": {
+                    "foreground": "#d30000",
+                }
+            },
+            {
+                "scope": "meta.method.body.java",
+                "settings": {
+                    "foreground": "#e6d7d7",
+                }
+            },
+            {
+                "scope": "meta.method-call",
+                "settings": {
+                    "foreground": "#DDDDDD",
+                }
+            }
+        ]
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "[Solarized Dark]": {
+            "enabled": true,
+            "rules": {}
+        }
+    },
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "prettier.jsxSingleQuote": true,
+}
